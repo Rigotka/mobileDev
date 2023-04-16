@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Список сотрудников</string>
+    <string name="addButton">Добавить сотрудника</string>
+    <string-array name="names">
+        <item>Александр</item>
+        <item>Сергей</item>
+        <item>Богдан</item>
+        <item>Владимир</item>
+        <item>Артем</item>
+    </string-array>
+    <string-array name="surnames">
+        <item>Смирнов</item>
+        <item>Сорокин</item>
+        <item>Камушкин</item>
+        <item>Хомяков</item>
+        <item>Ключкин</item>
+    </string-array>
+    <string-array name="positions">
+        <item>Разработчик</item>
+        <item>Дизайнер</item>
+        <item>SMM</item>
+        <item>Юрист</item>
+        <item>Босс</item>
+    </string-array>
+</resources>

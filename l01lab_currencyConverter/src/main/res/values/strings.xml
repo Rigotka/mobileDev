@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Currency Converter</string>
+
+    <string-array name="currencyList">
+        <item>RUB</item>
+        <item>KZT</item>
+        <item>USD</item>
+        <item>EUR</item>
+    </string-array>
+
+    <string name="RUB">KZT:5.83 USD:0.013 EUR:0.012</string>
+    <string name="KZT">RUB:0.17 USD:0.0022 EUR:0.002</string>
+    <string name="USD">RUB:78 KZT:454 EUR:0.92</string>
+    <string name="EUR">RUB:84.79 KZT:494 USD:1.09</string>
+
+</resources>
