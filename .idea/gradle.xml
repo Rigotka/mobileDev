@@ -14,6 +14,8 @@
             <option value="$PROJECT_DIR$/l01lab_currencyConverter" />
             <option value="$PROJECT_DIR$/l01lab_test" />
             <option value="$PROJECT_DIR$/l02lab_listEmployees" />
+            <option value="$PROJECT_DIR$/l03lab_nfs" />
+            <option value="$PROJECT_DIR$/l03lab_sunrise" />
           </set>
         </option>
       </GradleProjectSettings>

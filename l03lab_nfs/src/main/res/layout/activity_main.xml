@@ -1,0 +1,44 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+    <ViewFlipper
+        android:id="@+id/viewFlipper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:autoStart="true"
+        android:flipInterval="3000">
+        <ImageView
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:src="@drawable/crossroads" />
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:src="@drawable/road"
+            android:layerType="software"/>
+    </ViewFlipper>
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="50dp"
+        android:layout_height="100dp"
+        android:layout_gravity="bottom"
+        android:layout_marginStart="130dp"
+        android:layout_marginBottom="40dp"
+        android:src="@drawable/red_car" />
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="50dp"
+        android:layout_height="100dp"
+        android:layout_gravity="bottom"
+        android:layout_marginStart="210dp"
+        android:layout_marginBottom="120dp"
+        android:src="@drawable/blue_car" />
+</FrameLayout>
