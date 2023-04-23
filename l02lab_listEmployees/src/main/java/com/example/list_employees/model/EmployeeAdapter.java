@@ -18,7 +18,7 @@ import java.util.List;
 
 public class EmployeeAdapter extends RecyclerView.Adapter<EmployeeAdapter.ViewHolder> implements View.OnClickListener{
 
-    private final List<Employee> _employees = new ArrayList<>() ;
+    private List<Employee> _employees = new ArrayList<>() ;
 
     @Override
     public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
@@ -61,6 +61,15 @@ public class EmployeeAdapter extends RecyclerView.Adapter<EmployeeAdapter.ViewHo
         else{
             Toast.makeText(view.getContext(), employee.toString(), Toast.LENGTH_SHORT).show();
         }
+    }
+
+    public List<Employee> getEmployees(){
+        return _employees;
+    }
+
+    public void setEmployees(List<Employee> employees){
+        _employees = employees;
+        notifyDataSetChanged();
     }
 
     public static class ViewHolder extends RecyclerView.ViewHolder{
