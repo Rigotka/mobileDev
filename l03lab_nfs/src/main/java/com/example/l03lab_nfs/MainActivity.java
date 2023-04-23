@@ -1,4 +1,4 @@
-package com.example.lab;
+package com.example.l03lab_nfs;
 
 import androidx.appcompat.app.AppCompatActivity;
 
